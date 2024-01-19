@@ -1,0 +1,62 @@
+/* Estilos para pantallas mayores o iguales a 768px */
+@media (min-width: 768px) {
+    body {
+        margin-top: 56px;
+    }
+
+    
+}
+
+/* Estilos para pantallas menores a 768px (dispositivos móviles) */
+@media (max-width: 767px) {
+    body {
+        margin-top: 13%;
+        overflow-y: auto;
+    }
+
+    #NavMenu {
+        height: 90px;
+        padding: 0;
+    }
+
+    .elementosMenu {
+        padding-bottom: 5px !important;
+    }
+
+    #card-informacion {
+        padding-top: 40px;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+    
+    .card-form {
+        width: 90%; /* Puedes ajustar el porcentaje según tus necesidades */
+        margin-top: 15%;
+    }
+
+    .offcanvas {
+        height: 90vh !important;
+    }
+
+}
+
+.modal {
+    box-shadow: none;
+    background-color: transparent;
+}
+.chart-container {
+    width: auto;
+    height: auto;
+  }
+
+  canvas {
+    width: 100% !important; /* Asegura que el canvas se ajuste correctamente al 100% */
+    height: 100% !important; /* Asegura que el canvas se ajuste correctamente al 100% */
+  }
+
+  .card-body {
+    height: 90px; /* Ajusta esta altura según tus necesidades */
+    overflow: hidden;
+  }

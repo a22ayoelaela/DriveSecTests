@@ -1,0 +1,78 @@
+/* Estilos generales para el cuerpo y la página */
+html,
+body {
+  height: 100%;
+  background-color: #292C33;
+  color: rgb(222, 226, 230);
+}
+
+/* Estilos para todas las imágenes */
+img {
+  width: 162px;
+  height: 57px;
+  display: block; /* Asegura que la imagen sea tratada como un bloque */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; /* Asegura que la imagen no se extienda más allá del ancho máximo de la ventana */
+  height: auto;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+/* Estilos para los campos de entrada dentro de un formulario flotante */
+.form-floating input {
+  background-color: rgb(33, 37, 41);
+  border-color: rgb(73, 80, 87);
+}
+
+/* Estilos específicos para el campo de texto en el formulario */
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: rgba(222, 226, 230, 0.65);
+}
+
+/* Estilos específicos para el campo de contraseña en el formulario */
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: rgba(222, 226, 230, 0.65);
+}
+
+/* Estilos para el control de formulario enfocado */
+.form-control:focus {
+  background-color: rgb(33, 37, 41) !important;
+}
+
+/* Estilos para los párrafos dentro de un formulario */
+form p {
+  color: rgba(222, 226, 230, 0.65);
+}
+
+input[type=number] {
+  height: 45px;
+  width: 45px;
+  margin: 3px;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid #000000;
+  color: aliceblue;
+}
+
+/* Para quitar las flechas del input tipo "number" en Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Para quitar las flechas del input tipo "number" en Firefox*/
+input[type=number] {
+  -moz-appearance: textfield;
+}
